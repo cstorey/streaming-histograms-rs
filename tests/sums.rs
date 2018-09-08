@@ -1,6 +1,6 @@
-extern crate streaming_quantiles;
+extern crate streaming_histogram;
 
-use streaming_quantiles::*;
+use streaming_histogram::*;
 #[test]
 fn trival_empty() {
     let h = Histogram::new(5);
